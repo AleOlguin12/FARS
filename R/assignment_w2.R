@@ -14,19 +14,18 @@
 #' @return Either a tibble dataframe with the data or a error message indicating that the file doesn't exist.
 #'
 #' @examples
-#' fars_read("accident_2013.csv.bz2")
+#' \dontrun{fars_read("accident_2013.csv.bz2")}
 #'
 #' @export
-#' \dontrun{
-#' fars_read <- function(filename) {
-#'        if(!file.exists(filename))
-#'                stop("file '", filename, "' does not exist")
-#'        data <- suppressMessages({
-#'                readr::read_csv(filename, progress = FALSE)
-#'        })
-#'        dplyr::tbl_df(data)
-#' }
-#' }
+
+ fars_read <- function(filename) {
+        if(!file.exists(filename))
+                stop("file '", filename, "' does not exist")
+        data <- suppressMessages({
+                readr::read_csv(filename, progress = FALSE)
+        })
+        dplyr::tbl_df(data)
+ }
 
 #' Make filename
 #'

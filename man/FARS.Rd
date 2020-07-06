@@ -5,7 +5,7 @@
 \alias{FARS}
 \title{FARS package}
 \description{
-cualquier huea
+cualquier huea sdfdsgsdgsdfdsasdasfadasdghbnjmk
 }
 \author{
 Ale \email{ale@ale.cl}

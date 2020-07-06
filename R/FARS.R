@@ -1,6 +1,6 @@
 #' FARS package
 #'
-#' cualquier huea sdfdsgsdgsdfds
+#' cualquier huea sdfdsgsdgsdfdsasdasf
 #'
 #' @docType package
 #'

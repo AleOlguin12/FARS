@@ -1,5 +1,6 @@
 Package: FARS
 Type: Package
+Imports: dplyr, magrittr, maps, readr, tidyr, testthat
 Title: Final assignment
 Version: 0.1.0
 Author: Ale
